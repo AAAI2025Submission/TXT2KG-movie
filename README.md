@@ -1,6 +1,6 @@
 ## TXT2KG: Automated Construction of Hyper-Knowledge Graphs from Unstructured Text
 
-**[Note: This repository is for the movie domain. For the movie domain, please refer to [this repository](https://github.com/AAAI2025Submission/TXT2KG).]**
+**[Note: This repository is for the movie domain. For the medical domain, please refer to [this repository](https://github.com/AAAI2025Submission/TXT2KG).]**
 
 This is the repository for AAAI anonymous submission **TXT2KG: Automated Construction of Hyper-Knowledge Graphs from Unstructured Text**.
 
