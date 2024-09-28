@@ -1,6 +1,6 @@
 ## TXT2KG: Automated Construction of Hyper-Knowledge Graphs from Unstructured Text
 
-**[Note: This repository is for the movie domain. For the movie domain, please refer to [this repository](https://github.com/AAAI2025Submission/TXT2KG).]**
+**[Note: This repository is for the movie domain. For the medical domain, please refer to [this repository](https://github.com/AAAI2025Submission/TXT2KG).]**
 
 This is the repository for AAAI anonymous submission **TXT2KG: Automated Construction of Hyper-Knowledge Graphs from Unstructured Text**.
 
@@ -38,10 +38,10 @@ Finally, TXT2KG generate Hyper-Knowledge Graphs with validated hyper-triples.
 2. Create a Neo4j database.
 3. Enable APOC.
 
-### Generated Dataset
+### Dataset
 
-- The generated property KG is available [here](https://entuedu-my.sharepoint.com/:f:/g/personal/zhixiang002_e_ntu_edu_sg/Ej2XV1dcoKhClhFGEdRgIBYBNwYoErDUPEKxPcZdWsyusg?e=FZgIAa).
-- The generated hyper KG and candidate KG are available [here](https://entuedu-my.sharepoint.com/:f:/g/personal/zhixiang002_e_ntu_edu_sg/Et8SEy7jmwtPh6MiiIsX284Bqgq5EhgqiqwMrEmHGCF7qw?e=iCRgb1).
+- We show some input examples in folder `movies` and `people`. The overall input unstructured data is available [here](https://entuedu-my.sharepoint.com/:f:/g/personal/zhixiang002_e_ntu_edu_sg/EkaSljUEEnJJpZVu66N3SMkBGPLNu6cetE3ausjzdIrh9w?e=HgvWaB).
+- The generated property KG and hyper KG are available [here](https://entuedu-my.sharepoint.com/:f:/g/personal/zhixiang002_e_ntu_edu_sg/EiMeyt-8jRNHhuUynR3OVEwBh-rQUZu4oWQBlrBXBFqndA?e=5l4bpH).
 
 These KGs and hyper KGs are dump files for Neo4j. Please load them into Neo4j following [this guide](https://neo4j.com/docs/desktop-manual/current/operations/create-from-dump/).
 
