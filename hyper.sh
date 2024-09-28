@@ -92,6 +92,26 @@ python graph_cleaning/entity_alignment.py --url bolt://localhost \
                                             --port $port \
                                             --epoch_num $epoch_num \
                                             --load_path results
+
+echo -------------------------
+echo hyper_entity_verification
+python graph_cleaning/hyper_entity_verification.py --load_path results \
+                                            --save_path results \
+                                            --epoch_num $epoch_num \
+                                            --xi 0.7 \
+                                            --alpha 0.5 \
+                                            --beta -0.1
+
+
+echo -------------------------
+echo hyper_relation_verification
+python graph_cleaning/hyper_relation_verification.py --load_path results \
+                                            --save_path results \
+                                            --epoch_num $epoch_num \
+                                            --xi 0.7 \
+                                            --alpha 0.5 \
+                                            --beta -0.1
+
 echo -------------------------
 echo cal_hyper_triplets
 python graph_cleaning/cal_hyper_triplets.py --save_path results \
