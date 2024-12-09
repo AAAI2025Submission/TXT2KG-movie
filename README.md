@@ -1,6 +1,6 @@
 ## TXT2KG: Automated Construction of Hyper-Knowledge Graphs from Unstructured Text
 
-**[Note: This repository is for the movie domain. For the medical domain, please refer to [this repository](https://github.com/AAAI2025Submission/TXT2KG).]**
+**[Note: This repository is for the movie domain. For the medical domain, please refer to [this repository](https://github.com/WWW2025AnonymousSubmission/TXT2KG).]**
 
 This is the repository for AAAI anonymous submission **TXT2KG: Automated Construction of Hyper-Knowledge Graphs from Unstructured Text**.
 
@@ -10,7 +10,7 @@ Subsequently, TXT2KG performs knowledge deduplication and ontology structuring t
 After that, to further enhance the quality of these clusters, LLMs are applied for filtering. 
 Finally, TXT2KG generate Hyper-Knowledge Graphs with validated hyper-triples.
 
-![fig](https://github.com/AAAI2025Submission/TXT2KG/blob/master/fig/Arc_v2.png)
+![fig](https://github.com/WWW2025AnonymousSubmission/TXT2KG/blob/master/fig/Arc_v2.png)
 
 ## Requirements
 
