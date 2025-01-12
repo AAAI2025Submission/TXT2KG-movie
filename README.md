@@ -1,16 +1,16 @@
-## TXT2KG: Automated Construction of Hyper-Knowledge Graphs from Unstructured Text
+## Med2KG: Automated Construction of Hyper-Knowledge Graphs from Unstructured Text
 
-**[Note: This repository is for the movie domain. For the medical domain, please refer to [this repository](https://github.com/WWW2025AnonymousSubmission/TXT2KG).]**
+**[Note: This repository is for the movie domain. For the medical domain, please refer to [this repository](https://github.com/WWW2025AnonymousSubmission/Med2KG).]**
 
-This is the repository for WWW 2025 submission **TXT2KG: Automated Construction of Hyper-Knowledge Graphs from Unstructured Text**.
+This is the repository for WWW 2025 submission **Med2KG: Automated Construction of Medical Knowledge Graphs from Unstructured Text**.
 
-In this paper, we propose TXT2KG, a comprehensive automated approach for constructing KGs that incorporates ontology-level knowledge. 
-TXT2KG utilizes LLMs to extract both triples and properties from unstructured texts via carefully crafted prompts. 
-Subsequently, TXT2KG performs knowledge deduplication and ontology structuring through clustering, leveraging semantic and KG neighbor information. 
+In this paper, we propose Med2KG, a comprehensive automated approach for constructing KGs that incorporates ontology-level knowledge. 
+Med2KG utilizes LLMs to extract both triples and properties from unstructured texts via carefully crafted prompts. 
+Subsequently, Med2KG performs knowledge deduplication and ontology structuring through clustering, leveraging semantic and KG neighbor information. 
 After that, to further enhance the quality of these clusters, LLMs are applied for filtering. 
-Finally, TXT2KG generate Hyper-Knowledge Graphs with validated hyper-triples.
+Finally, Med2KG generate Hyper-Knowledge Graphs with validated hyper-triples.
 
-![fig](https://github.com/WWW2025AnonymousSubmission/TXT2KG/blob/master/fig/Arc_v2.png)
+![fig](https://github.com/WWW2025AnonymousSubmission/Med2KG/blob/master/fig/Arc_v2.png)
 
 ## Requirements
 
@@ -45,7 +45,7 @@ Finally, TXT2KG generate Hyper-Knowledge Graphs with validated hyper-triples.
 
 These KGs and hyper KGs are dump files for Neo4j. Please load them into Neo4j following [this guide](https://neo4j.com/docs/desktop-manual/current/operations/create-from-dump/).
 
-## TXT2KG Implementation
+## Med2KG Implementation
 
 ### Property KG Construction
 
@@ -59,7 +59,7 @@ These KGs and hyper KGs are dump files for Neo4j. Please load them into Neo4j fo
 ```
 
 ### Hyper-KG Construction
-1. TXT2KG directly modifies the Neo4j database. If you want to save the initial Property KG, dump and back up the dataset following [this guide](https://neo4j.com/docs/desktop-manual/current/operations/create-dump/).
+1. Med2KG directly modifies the Neo4j database. If you want to save the initial Property KG, dump and back up the dataset following [this guide](https://neo4j.com/docs/desktop-manual/current/operations/create-dump/).
 2. Set your 'openai_api_key' ,`username` and `password` in `hyper.sh`.
 3. Set the number of epochs you want.
 
